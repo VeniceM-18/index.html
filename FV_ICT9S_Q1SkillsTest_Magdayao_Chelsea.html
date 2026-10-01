@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Q1 Skills Test</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+<style>
+body {
+    font-family: "Orbitron", sans-serif;
+    background-color: #e8f1f5;
+    margin: 0;
+    padding: 30px;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    border-radius: 15px;
+    width: 100%;
+    padding: 30px;
+    min-height: 600px;
+    box-sizing: border-box;
+    background-color: rgb(227, 237, 244);
+}
+.form-section {
+    width: 100%;
+}
+form {
+    width: 100%;
+}
+.image-section {
+    width: 100%;
+    padding: 30px;
+}
+.image-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.logo {
+    width: 108px;
+    margin-bottom: 0;
+}
+h1 {
+    font-size: 26px;
+    margin: 0;
+    color: #112b34;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.description {
+    color: #000000;
+    line-height: 1.5;
+    margin-bottom: 25px;
+    font-size: 14px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="email"],
+        select,
+textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-header {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+h2 {
+    font-size: 18px;
+    text-decoration: underline;
+    color: #0f2932;
+}
+ul {
+    font-size: 14px;
+    line-height: 1.8;
+}
+button {
+    background-color: #112b34;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-family: "Courier New", monospace;
+    font-size: 14px;
+}
+label {
+    font-weight: bold;
+}
+body {
+    background-color: rgb(234, 246, 255);
+    background-image: url(https://innovate.ieee.org/wp-content/uploads/import/spotlight/Humanoid-robot_COVER.jpg);
+    background-size: cover;
+}
+</style>
+</head>
+
+<body>
+
+    <div class="form-section">
+
+        <div class="form-header">
+
+            <img 
+                class="logo" 
+                src="https://files.orangeapps.ph/disk001/School_Files/1/school-66/school_profile/1724046763-1128.png" 
+                alt="OBMC Logo">
+
+            <h1>OBMC Robotics Club Application Form</h1>
+
+            <p class="description">
+                Welcome! Please fill out this form to apply for the Robotics Club. <br>
+                Join us in exploring technology, creativity, and innovation through robotics.
+            </p>
+
+        </div>
+
+        <div class="container">
+
+            <form action="">
+
+            <label for="fullname">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" placeholder="Type here...">
+
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Type here...">
+
+            <br><br>
+
+            <label for="grade">Grade Level</label>
+            <select id="grade" name="grade">
+                <option value="grade7">Grade 7</option>
+                <option value="grade8">Grade 8</option>
+                <option value="grade9">Grade 9</option>
+                <option value="grade10">Grade 10</option>
+                <option value="grade11">Grade 11</option>
+                <option value="grade12">Grade 12</option>
+            </select>
+
+            <br><br>
+
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+
+            <br><br>
+
+            <label>What are your skills?</label>
+            <br>
+
+            <input type="checkbox" id="coding" name="skills" value="coding">
+            <label for="coding">Coding</label>
+
+            <input type="checkbox" id="design" name="skills" value="design">
+            <label for="design">Design</label>
+
+            <input type="checkbox" id="electronics" name="skills" value="electronics">
+            <label for="electronics">Electronics</label>
+            <br>
+            <input type="checkbox" id="building" name="skills" value="building">
+            <label for="building">Building</label>
+
+            <input type="checkbox" id="problem-solving" name="skills" value="problem-solving">
+            <label for="problem-solving">Problem Solving</label>
+
+            <br><br>
+
+            <label class="main-label">Preferred Robotics Role:</label>
+            <br>
+
+            <input type="radio" id="role-coding" name="role" value="coding">
+            <label for="role-coding">Coding</label>
+
+            <input type="radio" id="role-design" name="role" value="design">
+            <label for="role-design">Design</label>
+
+            <input type="radio" id="role-electronics" name="role" value="electronics">
+            <label for="role-electronics">Electronics</label>
+            <br>
+            <input type="radio" id="role-building" name="role" value="building">
+            <label for="role-building">Building</label>
+
+            <input type="radio" id="role-mechanical" name="role" value="mechanical">
+            <label for="role-mechanical">Mechanical Engineering</label>
+            <br>
+            <input type="radio" id="role-research" name="role" value="research">
+            <label for="role-research">Research & Development</label>
+
+            <br><br>
+            <label class="main-label">Previous Robotics Experience:</label>
+            <br>
+
+            <input type="radio" id="yes" name="experience" value="yes">
+            <label for="yes">Yes</label>
+
+            <input type="radio" id="no" name="experience" value="no">
+            <label for="no">No</label>
+            <br><br>
+
+            <label for="reason">Tell us why you want to join:</label>
+            <br>
+
+            <textarea id="reason" name="reason" rows="5" placeholder="Type here..."></textarea>
+
+            <br><br>
+
+            <h2>Top Robotics Activities We Offer</h2>
+
+            <ul>
+                <li>Smart Sensor Lab</li>
+                <li>Mini Arduino Projects</li>
+                <li>Everyday Automation Challenge</li>
+                <li>3D Robot Design</li>
+                <li>Robot Troubleshooting Challenge</li>
+            </ul>
+
+            <h2>Helpful Links</h2>
+
+            <ul>
+                <li><a href="https://youtu.be/tiGw9PQbvrg?si=itxIrfhitWEb0Ul3">Arduino Beginner Tutorial</a></li>
+                <li><a href="https://youtu.be/7XnAp8s25mI?si=behdc8YHkldvT4k_">Robotics Coding Tutorial for Beginners</a></li>
+                <li><a href="https://youtu.be/5uUiAkyY408?si=VpBl7V2GOiVUioqJ">Robotics Engineering Explained</a></li>
+            </ul>
+
+            <br>
+            <button type="submit">Submit Application</button>
+        
+            </form>
+
+        </div>
+
+        <footer>
+            <p id="foot">@ 2026 OBMC Robotics Club Application Form | Created by Venice Magdayao, 9-Sapphire</p>
+        </footer>
+
+        <style>
+        footer{
+            background-color: rgb(33, 43, 52);
+            border: 2px solid rgb(232, 255, 255);
+            padding: 10px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        #foot{
+            margin: 0;
+            color: #ffff;
+        }
+        </style>
+
+    </div>
+
+</body>
+</html>
